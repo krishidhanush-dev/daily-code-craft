@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- Child (>)  div>ul>li -->
+<div>
+  <ul>
+    <li></li>
+  </ul>
+</div>
+
+<!-- Sibling (+) div+h1+p -->
+ <div></div>
+ <h1></h1>
+ <p></p>
+
+ <!-- Climb-up (^) div+div>p>span+p^em -->
+  <div></div>
+  <div>
+    <p>
+      <span></span>
+      <p></p>
+    </p>
+    <em></em>
+  </div>
+
+  <!-- Multiplication (*) ul>li*5 -->
+   <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+   </ul>
+
+   <!-- Grouping (()) div>(header>ul>li*2>a)+footer>span -->
+    <div>
+      <header>
+        <ul>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+        </ul>
+      </header>
+      <footer><span></span></footer>
+    </div>
+
+    <!-- id and class div#header+div.page+div#footer.class1.class2 -->
+     <div id="header"></div>
+     <div class="page"></div>
+     <div id="footer" class="class1 class2"></div>
+
+     <!-- Custom attributes ([]) -->
+      <td title="Hello world!" colspan="3"></td>
+
+      <!-- item numbering ($)  ul>li.item$$$*5-->
+       <ul>
+        <li class="item1"></li>
+        <li class="item2"></li>
+        <li class="item3"></li>
+        <li class="item4"></li>
+        <li class="item5"></li>
+       </ul>
+
+       <!-- Text ({}) -->
+        <a href="">click me</a> 
+        <p>click<a href="">here</a>to continue</p>
+
+        <!-- Notes on abbreviation formatting  (header>ul.nav>li*5) + footer-->
+         <header>
+          <ul class="nav">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+         </header>
+         <footer></footer>
+</body>
+</html>
