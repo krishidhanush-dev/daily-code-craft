@@ -9,7 +9,7 @@ Welcome to my daily coding journey! This repository is dedicated to mastering fu
 | Day | Topic / Technology | Key Learnings & Syntax | Status |
 | :--- | :--- | :--- | :--- |
 | **Day 1** | Emmet Basics (HTML) | Core syntax shorthands (`>`, `+`, `*`, `.class`, `#id`) | ✅ Completed |
-| Day 2 | SVG Basics & Vector Logic | Coordinate system, basic shapes (`<circle>`, `<rect>`, `<path>`), and positioning | ⏳ In Progress |
+| Day 2 | SVG Basics & Vector Logic | Coordinate system, basic shapes (`<circle>`, `<rect>`, `<path>`), and positioning | ✅ Completed |
 | Day 3 | SVG with CSS & JS | Styling, hover effects, and basic dynamic animations | 📅 Upcoming |
 
 ---
