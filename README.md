@@ -1,4 +1,4 @@
-# 🚀 Daily Code Craft | 60-Day Developer Challenge
+# 🚀 Daily Code Craft 
 
 Welcome to my daily coding journey! This repository is dedicated to mastering full-stack web development, core computer science concepts, and logic building. I document my daily code practice, notes, and implementations here.
 
@@ -10,7 +10,8 @@ Welcome to my daily coding journey! This repository is dedicated to mastering fu
 | :--- | :--- | :--- | :--- |
 | **Day 1** | Emmet Basics (HTML) | Core syntax shorthands (`>`, `+`, `*`, `.class`, `#id`) | ✅ Completed |
 | Day 2 | SVG Basics & Vector Logic | Coordinate system, basic shapes (`<circle>`, `<rect>`, `<path>`), and positioning | ✅ Completed |
-| Day 3 | SVG with CSS & JS | Styling, hover effects, and basic dynamic animations | 📅 Upcoming |
+| Day 3 | SVG with CSS & JS | Styling, hover effects, and basic dynamic animations | ✅ Completed |
+| Day 4 | Mini Authentication Project | Login/Register pages, form validation, page navigation, localStorage, JSON.stringify(), JSON.parse(), login verification | ✅ Completed |
 
 ---
 
@@ -26,13 +27,14 @@ Every day's practice has its own dedicated folder with notes (`README.md`) and c
 ```text
 daily-code-craft/
 │
-├── emmet-basics/        <-- Day 1 Practice
-│   ├── README.md         <-- Detailed Emmet notes
-│   └── index.html        <-- Emmet practice code
+├── emmet-basics/
+├── svg-basics/
+├── mini-authentication/
+│   ├── README.md
+│   ├── index.html
+│   ├── register.html
+│   ├── style.css
+│   └── script.js
 │
-├── svg-basics/          <-- Day 2 Practice (Current)
-│   ├── README.md         <-- SVG theory and coordinate notes
-│   ├── index.html        <-- Shape positioning practice HTML
-│   └── style.css         <-- Custom styling using IDs and Classes (Font sizes & fills)
-│
-└── README.md            <-- Main dashboard (This file)
+└── README.md
+```
