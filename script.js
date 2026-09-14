@@ -5,6 +5,8 @@ function login() {
 
   let message = document.getElementById("message");
 
+  let savedUser = JSON.parse(localStorage.getItem("user"));
+
   if (username === "") {
     message.textContent = "Please enter username";
     return;
@@ -15,11 +17,12 @@ function login() {
     return;
   }
 
-  if (username === "azuuu" && password === "1432") {
-    document.getElementById("message").textContent = "Login successful!";
+  if (savedUser && username === savedUser.username && password === savedUser.password) {
+    message.textContent = "Login successful!";
   } else {
-    document.getElementById("message").textContent = "Invalid username or password";
+    message.textContent = "Invalid username or password";
   }
+
 }
 
 function register() {
@@ -65,5 +68,16 @@ function register() {
     return;
   }
 
+  let user = {
+    name: name,
+    email: email,
+    username: username,
+    password: password
+  };
+
+  localStorage.setItem("user", JSON.stringify(user));
+
+  console.log("Register function is running")
   message.textContent = "Registration successful!"
+
 }
