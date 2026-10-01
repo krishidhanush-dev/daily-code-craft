@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessibility</title>
+</head>
+
+<body>
+  <!-- informative image -->
+  <img src="developer.jpg" alt="Developer working a laptop">
+
+  <!-- heading hierarchy -->
+  <h1>Developer Connect</h1>
+
+  <h2>Introduction</h2>
+  <p>Welcome to my developer page.</p>
+
+  <h2>About Me</h2>
+
+  <h3>Skills</h3>
+  <p>HTML, CSS, JavaScript....</p>
+
+  <h3>Projects</h3>
+  <p>My web development projects....</p>
+
+  <h2>Contact Me</h2>
+
+  <!-- accessible forms -->
+  <label for="email">Email</label>
+  <input type="email" id="email" placeholder="Enter your email">
+
+  <!-- keyboard accessibility -->
+   <a href="/about">About</a>
+   <button type="submit">Submit</button>
+   <input type="text">
+
+   <!-- buttons vs links -->
+    <a href="/about">About</a>
+    <a href="/contact">Contact</a>
+
+    <button type="submit">Register</button>
+
+    <!-- ARIA -> Accessible Rich Internet Applications -->
+     <button aria-label="Close">
+      X
+     </button>
+
+     <!-- color contrast -->
+      body {
+        background: white;
+        color: black;
+      }
+
+      <!-- focus state -->
+       input:focus {
+        outline: 2px solid;
+       }
+</body>
+
+</html>

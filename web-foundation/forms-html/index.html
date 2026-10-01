@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Forms</title>
+</head>
+
+<body>
+  <form action="/register" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required> <br>
+
+    <label for="email">Email:</label>
+    <input type="email" name="" id="email" name="email" placeholder="Enter your email" required> <br>
+
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required> <br>
+
+    <label for="message">Message</label>
+    <textarea name="message" id="message" placeholder="Enter your message"></textarea> <br>
+
+    <label for="course">Course</label>
+    <select name="course" id="course">
+      <option value="html">HTML</option>
+      <option value="css">CSS</option>
+      <option value="javascript">JavaScript</option>
+    </select> <br>
+
+    <p>Gender:</p>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+
+    <input type="radio" id="female" name="female" value="female">
+    <label for="female">Female</label> <br>
+
+    <p>Skills:</p>
+    <input type="checkbox" id="html" name="skills" value="html">
+    <label for="html">HTML</label>
+
+    <input type="checkbox" id="css" name="skills" value="css">
+    <label for="css">CSS</label>
+
+    <input type="checkbox" id="js" name="skills" value="javascript">
+    <label for="js">JavaScript</label> <br>
+
+    <button type="submit">Register</button>
+    <button type="reset">Reset</button>
+  </form>
+
+  <!-- <form action="/register">
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" placeholder="Enter your name">
+
+    <button type="submit">Register</button>
+  </form> -->
+</body>
+
+</html>
