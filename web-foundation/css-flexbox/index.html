@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS | Flexbox</title>
+  <style>
+    /* .container {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-direction: row;
+    }
+
+    .card {
+      background-color: lightcoral;
+      text-align: center;
+      padding: 20px;
+      margin: 15px;
+      font-size: 23px;
+      color: black;
+      border-radius: 10px;
+    } */
+
+    /* flexbox - justify-content => flex-start, center, flex-end, space-around, space-between, space-evenly */
+    /* .container {
+      display: flex;
+      justify-content: space-evenly;
+    } */
+
+    /* flexbox - align-item =>  flex-start, center, flex-end, stretch */
+    /* .container {
+      display: flex;
+      height: 300px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card {
+      background-color: lightcoral;
+      text-align: center;
+      padding: 20px;
+      margin: 15px;
+      font-size: 23px;
+      color: black;
+      border-radius: 10px;
+    } */
+
+    /* flex-direction => row, row-reverse, column, column-reverse */
+
+    /* .container {
+      display: flex;
+      height: 300px;
+      align-items: stretch;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+
+    .card {
+      background-color: lightcoral;
+      text-align: center;
+      padding: 20px;
+      margin: 15px;
+      font-size: 23px;
+      color: black;
+      border-radius: 10px;
+    } */
+
+    /* flex-wrap and gap =>  flex-wrap => nowrap, wrap, wrap-reverse*/
+
+    /* .container {
+      display: flex;
+      height: 300px;
+      align-items: flex-start;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .card {
+      background-color: lightcoral;
+      text-align: center;
+      padding: 20px;
+      margin: 15px;
+      font-size: 23px;
+      color: black;
+      border-radius: 10px;
+    } */
+
+    /* flex-grow, flex-shrink and flex-basis */
+    .container {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 20px;
+      width: 600px;
+    }
+
+    .card {
+      background-color: lightcoral;
+      text-align: center;
+      padding: 20px;
+      font-size: 23px;
+      color: black;
+      border-radius: 10px;
+    }
+
+    /* flex-grow */
+    /* .box1 {
+      flex-grow: 1;
+    }
+
+    .box2 {
+      flex-grow: 2;
+    }
+
+    .box3 {
+      flex-grow: 1;
+    } */
+
+    .box2 {
+      flex-basis: 300px;
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card box1">HTML</div>
+    <div class="card box2">CSS</div>
+    <div class="card box3">JavaScript</div>
+  </div>
+
+  <!-- <div class="container">
+  <div class="card">
+    <h2>HTML</h2>
+    <p>Learn HTML</p>
+  </div> -->
+
+  <!-- <div class="container">
+      <div class="card">HTML</div>
+      <div class="card">CSS</div>
+      <div class="card">JavaScript</div>
+      <div class="card">HTML</div>
+      <div class="card">CSS</div>
+      <div class="card">JavaScript</div>
+      <div class="card">HTML</div>
+      <div class="card">CSS</div>
+      <div class="card">JavaScript</div>
+      <div class="card">HTML</div>
+      <div class="card">CSS</div>
+      <div class="card">JavaScript</div>
+      <div class="card">HTML</div>
+      <div class="card">CSS</div>
+      <div class="card">JavaScript</div>
+      <div class="card">HTML</div>
+      <div class="card">CSS</div>
+      <div class="card">JavaScript</div>
+  </div> -->
+
+
+</body>
+
+</html>

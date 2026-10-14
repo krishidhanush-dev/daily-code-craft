@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>card layout | mini project</title>
+  <style>
+    body {
+      background-color: antiquewhite;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      width: 90%;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .card {
+      font-size: 18px;
+      /* width: 450px; */
+      background-color: lightcoral;
+      color: black;
+      border: 2px solid black;
+      border-radius: 10px;
+      padding: 8px;
+      flex: 1 1 250px;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        flex-basis: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1>My Learning Cards</h1>
+
+  <div class="container">
+    <div class="card">
+      <h2>HTML</h2>
+      <p class="description">
+        HTML (HyperText Markup Language) is the standard markup language used to create and structure the skeleton of
+        web pages. It relies on a system of tags and elements to instruct web browsers on how to display content like
+        text, links, and multimedia.
+      </p>
+    </div>
+    <div class="card">
+      <h2>CSS</h2>
+      <p class="description">
+        CSS (Cascading Style Sheets) is a stylesheet language used to control the presentation, layout, and visual
+        design of documents written in HTML or XML. While HTML creates the structure and skeleton of a web page.
+      </p>
+    </div>
+    <div class="card">
+      <h2>JavaScript</h2>
+      <p class="description">
+        JavaScript (JS) is a lightweight, high-level, and dynamically typed programming language that serves as one of
+        the core technologies of the World Wide Web, alongside HTML and CSS.
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
