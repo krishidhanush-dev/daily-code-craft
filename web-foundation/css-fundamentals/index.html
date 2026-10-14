@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>css fundamentals</title>
+  <style>
+    /* syntax and how works */
+    h1 {
+      color: blue;
+      font-size: 32px;
+    }
+
+    /* class selector */
+    .course {
+      color: green;
+    }
+
+    /* id selector */
+    #course-description {
+      color: red;
+    }
+
+    /* Grouping Selector */
+    h1,
+    p {
+      color: purple;
+    }
+
+    /* color and background-color */
+    /* color types */
+    #course {
+      color: red;
+      /* color-name, hex -> #ff0000, rgb -> rgb(255, 0, 0), rgba -> rgba(255, 0, 0, 0.3)  */
+    }
+
+    /* background-color */
+    body {
+      background-color: antiquewhite;
+    }
+
+    div {
+      /* background-color: black;
+      background-image: url(image.jpg);
+      background-size: cover;
+      background-position: center; */
+      background-color: #df15bd;
+    }
+
+    /* Small task */
+    h1 {
+      color: #ff9803;
+    }
+
+    p {
+      color: rgba(3, 13, 102, 0.8);
+    }
+
+    section {
+      background-color: aqua;
+    }
+
+    button {
+      background-color: #df15bd;
+      color: black;
+    }
+
+    /* units */
+    .units {
+      font-size: 32px;
+      /* pixel -> 20px, width -> 20%, rem -> 2rem, em -> 2em, vh (viewport height) -> 100vh, vw (viewport width) -> 100vw,  */
+    }
+
+    #css-units {
+      /* font-size: 100%; */
+      font-size: 20px;
+    }
+
+    /* typography - properties */
+    /* font-family */
+    /* body {
+      font-family: Arial, sans-serif;
+    } */
+
+    /* font-size => h1 { font-size: 20px;} */
+    /* font-weight => h1 { font-weight: 600;} */
+    /* font-style => h1 { font-style: italic;} */
+    /* line-height => h1 { line-height: 1.6;} */
+    /* letter-spacing => h1 { letter-spacing: 2px;} */
+    /* text-align => h1 { text-align: center;} */
+    /* text-decoration => h1 { text-decoration: none;} */
+
+    /* #css-units {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1.2;
+      letter-spacing: 2px;
+      text-align: center;
+    } */
+
+    /* Box-Model */
+    /* content -> <h1>Hello</h1> */
+    /* padding -> .card {padding: 20px;} */
+    /* border -> .card {border: 2px solid black;} */
+    /* margin -> .card {margin: 20px;} */
+
+    /* .card {
+      width: 300px;
+      padding: 20px;
+      border: 2px solid black;
+      box-sizing: border-box;
+    }
+
+    .simple-card {
+      width: 500px;
+      padding: 30px;
+      border: 2px solid black;
+      margin: 20px;
+      box-sizing: border-box;
+    } */
+
+    /* width and height */
+    /* width -> .card {width:300px;} */
+    /* height -> .card {height: 200px;} */
+    /* max-width -> .container {max-width: 900px;} */
+    /* min-width -> .box {min-width: 200px;} */
+
+    /* .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      border: 2px solid black;
+    } */
+
+    /* display */
+    .display {
+      /* display: none; */
+      /* ex: div, p, h1, section, header, main */
+
+      /* display: inline; */
+      /* ex: span, a, strong, em */
+      display: none;
+
+    }
+
+    /* .card-display {
+      display: inline-block;
+      width: 200px;
+      height: 150px;
+    }
+
+    .box1 {
+      display: block;
+      width: 200px;
+      height: 150px;
+      background-color: blue;
+    } */
+
+    /* .box2 {
+      display: inline;
+      width: 200px;
+      height: 150px;
+      background-color: blue;
+      margin-top: 20px;
+    } */
+
+    /* .box3 {
+      display: inline-block;
+      width: 200px;
+      height: 150px;
+      background-color: blue;
+      margin-top: 20px;
+    } */
+    /* .box4 {
+      display: none;
+      width: 200px;
+      height: 150px;
+      background-color: blue;
+      margin-top: 20px;
+    } */
+
+    /* CSS Overflow */
+    .overflow {
+      height: 200px;
+      width: 150px;
+      overflow: auto;
+      overflow-y: hidden; 
+      /* overflow: hidden, scroll, auto */
+    }
+
+    h4 {
+      color: blue;
+    }
+
+    .title {
+      color: green;
+    }
+
+    #heading {
+      color: red;
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- <h1>Welcome to the Webpage</h1>
+  <p class="course">Full Stack Developer</p>
+  <p id="course-description">Learning Web Foundation</p> -->
+
+  <!-- <h1>Krishi Code</h1>
+  <p id="course">Python Full Stack Developer</p>
+  <p class="description">Learning libraries</p>
+  <div></div> -->
+
+  <!-- Small Task -->
+  <!-- <h1>Welcome to the webpage</h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, error?</p>
+   <section>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci distinctio ullam obcaecati id laboriosam unde nulla quasi tempore minus aliquid!</p>
+   </section>
+   <button>Let's Rock</button> -->
+
+  <!-- <h1>Krishi code</h1>
+   <p class="units">
+    Lorem ipsum dolor sit amet.
+   </p>
+   <section id="css-units">
+    <h1>Skills</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, non.</p>
+   </section> -->
+
+  <!-- <div class="card">
+    <h2>Hello</h2>
+    <p>Hello</p>
+   </div>
+   
+   <div class="simple-card">
+    <h1>My Portfolio</h1>
+   </div>
+
+   <div class="container">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab voluptas iusto accusamus porro dolores perferendis officiis quam voluptates quis.</p> -->
+
+  <!-- <div class="display">
+      <h1 class="heading-display">Welcome to the webpage</h1>
+      <p class="paragraph-display">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, magnam! Dolorum libero repellendus sequi iure provident officiis voluptas corporis incidunt.
+        <span>copy right</span>
+      </p>
+
+      <div class="card-display">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nesciunt quaerat odit mollitia quia. Eligendi repellat voluptate quas debitis molestias.
+        </p>
+      </div>
+
+      <div class="card-display">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nesciunt quaerat odit mollitia quia. Eligendi repellat voluptate quas debitis molestias.
+        </p>
+      </div>
+
+      <div class="card-display">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nesciunt quaerat odit mollitia quia. Eligendi repellat voluptate quas debitis molestias.
+        </p>
+      </div>
+    </div> 
+  </div> -->
+
+
+  <!-- <div class="box1">box1</div>
+  <div class="box2">box2</div>
+  <div class="box3">box3</div>
+  <div class="box4">box4</div> -->
+
+  <!-- <div class="overflow">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, repudiandae.</p>
+  </div> -->
+
+  <h4 class="title" id="heading">Krishi code</h4>
+</body>
+
+</html>
