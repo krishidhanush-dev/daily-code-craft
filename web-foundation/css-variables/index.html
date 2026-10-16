@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS | Variables</title>
+
+  <style>
+    /* :root {
+      --primary-color: red;
+      --text-color: black;
+      --button-color: orange;
+    } */
+
+    /* h1 {
+      color: var(--primary-color);
+    }
+
+    button {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 10px 20px;
+      border-radius: 10px;
+      border: none;
+    } */
+
+    /* h1 {
+      color: var(--primary-color);
+    }
+
+    p {
+      color: var(--text-color);
+    }
+
+    button {
+      background-color: var(--button-color);
+      color: white;
+      padding: 10px 20px;
+      border-radius: 10px;
+      border: none;
+    } */
+
+    /* Small Task */
+    :root {
+      --primary-color: #2563eb;
+      --bg-color: #f8fafc;
+      --card-color: lightblue;
+      --text-color: #1e293b;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+    }
+
+    h1 {
+      color: var(--primary-color);
+    }
+
+    .container {
+      display: flex;
+      gap: 20px;
+      /* flex-direction: row; */
+    }
+
+    .card {
+      background-color: var(--card-color);
+      border-radius: 10px;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- <h1>My First CSS Variables</h1>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolorem consectetur animi beatae illo delectus pariatur. Consectetur esse ullam nostrum.
+  </p>
+  <button>Click Me</button> -->
+
+
+  <!-- Task -->
+  <h1>Profile Card</h1>
+  <div class="container">
+    <div class="card">Card 1</div>
+    <div class="card">Card 2</div>
+    <div class="card">Card 3</div>
+  </div>
+</body>
+
+</html>
