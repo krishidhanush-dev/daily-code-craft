@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS | Transition</title>
+
+  <style>
+    /* button {
+      background-color: blue;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+    }
+
+    button:hover {
+      background-color: orange;
+    } */
+
+    /* transition-timing-function => ease, linear, ease-in, ease-out, ease-in-out */
+
+    /* button {
+      background-color: blue;
+      transition-property: background-color;
+      transition-duration: 1s;
+      transition-timing-function: ease-in-out;
+    }
+
+    button:hover {
+      background-color: red;
+    } */
+
+    /* transition-delay */
+
+    /* button {
+      background-color: blue;
+      transition-property: background-color;
+      transition-duration: 3s;
+      transition-delay: 2s;
+    }
+
+    button:hover {
+      background-color: red;
+    } */
+
+    /* transition shorthand */
+
+    /* button {
+      background-color: blue;
+      transition: background-color 3s ease 2s;
+    }
+
+    button:hover {
+      background-color: red;
+    } */
+
+    button {
+      background-color: blue;
+      color: white;
+      transition: color 2s ease;
+    }
+
+    button:hover {
+      color: yellow;
+    }
+
+    .box {
+      width: 100px;
+      height: 200px;
+      background-color: blue;
+      transition: background-color 2s ease, width 2s ease;
+    }
+
+    .box:hover {
+      background-color: green;
+      width: 200px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- <button>Hover Me</button> -->
+  <div class="box"></div>
+</body>
+
+</html>
