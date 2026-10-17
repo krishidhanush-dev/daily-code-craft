@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS | Animation</title>
+
+  <style>
+    /* .box {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      animation-name: changeColor;
+      animation-duration: 6s;
+    } */
+
+    /* 
+    @keyframes changeColor {
+      from {
+        background-color: blue;
+      }
+
+      to {
+        background-color: red;
+      }
+    } */
+
+    /* animation-iteration-count */
+
+    /* .box {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      animation-name: changeColor;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes changeColor {
+      from {
+        background-color: blue;
+      }
+
+      to {
+        background-color: red;
+      }
+    } */
+
+    /* animation-direction */
+    /* .box {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      animation-name: changeColor;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+
+    @keyframes changeColor {
+      from {
+        background-color: blue;
+      }
+
+      to {
+        background-color: red;
+      }
+    } */
+
+    /* animation-delay */
+    /* .box {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+
+      animation-name: changeColor;
+      animation-duration: 2s;
+      animation-delay: 3s;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes changeColor {
+      from {
+        background-color: blue;
+      }
+
+      to {
+        background-color: red;
+      }
+    } */
+
+    /* animation-fill-mode */
+    /* .box {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+
+      animation-name: changeColor;
+      animation-delay: 3s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: 1;
+    }
+
+    @keyframes changeColor {
+      from {
+        background-color: blue;
+      }
+
+      to {
+        background-color: red;
+      }
+    } */
+
+    /* animation-timing-function */
+    /* .box {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+
+      animation-name: changeColor;
+      animation-duration: 3s;
+      animation-timing-function: linear;
+    }
+
+    .box:hover {
+      animation-play-state: paused;
+    }
+
+    @keyframes changeColor {
+      from {
+        background-color: blue;
+      }
+
+      to {
+        background-color: red;
+      }
+    } */
+
+    /* animation shorthand */
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+
+      animation: changeColor 2s ease-in-out 1s 3 alternate forwards;
+    }
+
+    @keyframes changeColor {
+      from {
+        background-color: blue;
+      }
+
+      to {
+        background-color: red;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box"></div>
+</body>
+
+</html>

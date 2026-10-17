@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Profile Card</title>
+
+  <style>
+    .profile-card {
+      background-color: lightblue;
+      margin: 20px auto;
+      border: 2px solid black;
+      border-radius: 20px;
+      max-width: 450px;
+      width: 300px;
+
+      transform: translateY(12px, -10px);
+      background-color: lightgreen;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+      transition: transform 0.6s ease, box-shadow 0.6s ease;
+    }
+
+    .profile-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    img {
+      width: 50%;
+      display: block;
+      margin: 20px auto;
+      border-radius: 50%;
+    }
+
+    h2 {
+      text-align: center;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+
+    h3 {
+      text-align: center;
+      font-weight: 600;
+      letter-spacing: 3px;
+    }
+
+    p {
+      text-align: center;
+      padding: 12px;
+    }
+
+    .status {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .status-dot {
+      width: 10px;
+      height: 10px;
+      background-color: green;
+      border-radius: 50%;
+
+      animation: pulse 1.5s infinite;
+    }
+
+    .btn-group {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 12px;
+    }
+
+    button {
+      border: none;
+      padding: 8px 14px;
+      border-radius: 10px;
+      background-color: lightcoral;
+
+      transition: background-color 0.5s ease-in;
+    }
+
+    button:hover {
+      background-color: lightsalmon;
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+        opacity: 1;
+      }
+
+      50% {
+        transform: scale(1.5);
+        opacity: 0.5;
+      }
+
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <section class="profile-card">
+      <!-- image -->
+      <img src="animal.jpg" alt="profile image">
+
+      <h2>Krishi Code</h2>
+      <h3>Full Stack Developer</h3>
+      <p class="status">
+        <span class="status-dot"></span>
+        Available for Work
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis minus enim nemo quam perspiciatis modi!
+      </p>
+
+      <div class="btn-group">
+        <button class="btn">YouTube</button>
+        <button class="btn">Linkedin</button>
+        <button class="btn">Pinterest</button>
+      </div>
+
+    </section>
+  </main>
+</body>
+
+</html>
