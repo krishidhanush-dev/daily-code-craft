@@ -1,0 +1,21 @@
+## JavaScript Revision Notes
+
+- `undefined`: value assign aagilla.
+- `null`: intentionally empty value.
+- `===`: strict equality; type conversion maadalla.
+- `&&`, `||`, `!`: logical operators.
+- `??`: left value null athava undefined iddaga fallback.
+- Ternary: short conditional expression.
+- `switch`: one expression-na multiple cases jothe compare maadodu.
+- Loops: `for`, `while`, `do...while`.
+- `break`: loop stop; `continue`: current iteration skip.
+- `for...of`: iterable values; `for...in`: object keys.
+- `forEach()`: each element mele action.
+- `map()`: transform elements into a new array.
+- `filter()`: matching elements-na new array-ge select maadutte.
+- `reduce()`: values-na one accumulated result-ge combine maadutte.
+- `find()`: first matching element athava `undefined`.
+- `some()`: at least one match iddare `true`.
+- `every()`: ella elements match aadre `true`.
+- Object property access: `product.name`, `product.price`.
+- Chaining: `filter().map()`; left to right execute aagutte.
