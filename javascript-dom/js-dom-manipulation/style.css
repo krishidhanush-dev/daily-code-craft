@@ -1,0 +1,13 @@
+.highlight {
+  color: blue;
+  font-weight: bold;
+}
+
+.active {
+  color: green;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
